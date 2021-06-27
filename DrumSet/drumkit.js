@@ -12,7 +12,7 @@ for (var j = 0; j < numberOfButtons; j++) {
   });
 }
   
-document.addEventListener("keypress", function(event) {
+document.addEventListener("keydown", function(event) {
   sound(event.key);
   animation(event.key);
 });
